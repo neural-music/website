@@ -27,6 +27,7 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: 'bulma/bulma.sass', lang: 'sass' }
   ],
 
   /*

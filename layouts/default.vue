@@ -1,5 +1,19 @@
 <template>
   <div>
+   <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <nuxt-link to='/' class="navbar-item">
+          Home
+        </nuxt-link>
+
+        <nuxt-link to="/about" class="navbar-item">
+          About
+        </nuxt-link>
+
+      </div>
+      </div>
+    </nav>
     <nuxt />
   </div>
 </template>
